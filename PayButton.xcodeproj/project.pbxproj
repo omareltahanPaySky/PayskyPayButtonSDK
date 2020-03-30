@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044B99F9243242E700522B1F /* UrlTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B99F8243242E700522B1F /* UrlTypes.swift */; };
 		C5190553216FA17600664149 /* WebViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5190552216FA17600664149 /* WebViewTableViewCell.xib */; };
 		C528E24C2166118F00CAFBC4 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528E2462166118F00CAFBC4 /* Extentions.swift */; };
 		C528E24D2166118F00CAFBC4 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528E2472166118F00CAFBC4 /* Global.swift */; };
@@ -84,6 +85,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044B99F8243242E700522B1F /* UrlTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlTypes.swift; sourceTree = "<group>"; };
 		32EB3C3597E59484B4264EC9 /* Pods_PayButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFF87293B0F918DFE1D360B /* Pods-PayButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayButton.release.xcconfig"; path = "Target Support Files/Pods-PayButton/Pods-PayButton.release.xcconfig"; sourceTree = "<group>"; };
 		3FDDBB612FB66BFB4AB212B6 /* Pods-PayButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayButton.debug.xcconfig"; path = "Target Support Files/Pods-PayButton/Pods-PayButton.debug.xcconfig"; sourceTree = "<group>"; };
@@ -195,7 +197,6 @@
 				3FDDBB612FB66BFB4AB212B6 /* Pods-PayButton.debug.xcconfig */,
 				3EFF87293B0F918DFE1D360B /* Pods-PayButton.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -250,6 +251,7 @@
 				C5B900F3216A404F00301C13 /* PaymentViewController.swift */,
 				C5F5D81E216655D40090E5FF /* CardScanViewController.swift */,
 				C5F5D820216664490090E5FF /* MainScanViewController.swift */,
+				044B99F8243242E700522B1F /* UrlTypes.swift */,
 			);
 			path = viewCotrollers;
 			sourceTree = "<group>";
@@ -613,6 +615,7 @@
 				C5FD7431222405D3008BD2AE /* UITextField.swift in Sources */,
 				C5FD7439222405D3008BD2AE /* NSCharacterSet.swift in Sources */,
 				C5FD7438222405D3008BD2AE /* FormatSanitizer.swift in Sources */,
+				044B99F9243242E700522B1F /* UrlTypes.swift in Sources */,
 				C5FD7440222406D8008BD2AE /* UIImageViewExtension.swift in Sources */,
 				C5F5D823216668680090E5FF /* BaseUITableViewCell.swift in Sources */,
 				C5FD7443222406D8008BD2AE /* QRCode.swift in Sources */,
@@ -789,6 +792,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B84S4L9KW4;
 				INFOPLIST_FILE = PayButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -808,6 +812,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B84S4L9KW4;
 				INFOPLIST_FILE = PayButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
